@@ -1,0 +1,55 @@
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 26, 2016, 5:03:39 PM
+    Author     : PhamNgocHieu
+*/
+div.content>div>h2
+{
+  text-align:center;  
+}
+div.content>div>div
+{
+   width:100%; 
+}
+div.content>div>div>img
+{
+  display:inline-block;   
+}
+div.content>div>div>div
+{
+  width:760px;
+  display:inline-block;
+  margin-left:50px;
+  vertical-align:top;
+}
+div.content>div>div>div>p
+{
+  margin-bottom: 20px;
+  
+}
+div.content>div>div>div>p.inhale
+{
+  width:393px;
+  height:156px;
+  background-image: url(../image/picture_for_lineage/Lineaget.jpg),url(../image/picture_for_lineage/Lineaged.jpg);
+  background-position: top left,bottom left;
+  background-repeat: no-repeat;
+  padding-top:35px;
+  padding-left:50px;
+  padding-right:50px;
+  margin-bottom:50px;
+  
+}
+div.content>div>h2
+{
+    font-family: "Helvetica Neue LT Std";
+    font-size: 24px;
+    font-style: italic;
+    color: #000;  
+}
+

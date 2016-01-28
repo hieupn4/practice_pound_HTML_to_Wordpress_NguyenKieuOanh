@@ -1,0 +1,120 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 26, 2016, 12:18:55 PM
+    Author     : PhamNgocHieu
+*/
+div.content>div ul
+{
+  list-style: none; 
+  width:1100px;
+}
+div.content>div div.testtimon p
+{ 
+  width:360px;
+  height:220px;
+  background-color:#dcc582;
+}
+div.content>div div.testtimon>ul>li
+{
+  display:inline-block;
+  float: left;
+  margin-right:5px;
+}
+div.content>div div.testtimon>ul>li>p
+{ 
+  padding-left:60px;
+  padding-top:60px;
+  padding-right:60px;
+}
+div.content>div div.testtimon>ul span
+{
+  display:block;
+  text-align: right;
+}
+div.content>div div.testtimon>h2
+{
+  width:100%;
+  text-align: center; 
+}
+div.content>div div.testtimon
+{
+  width:100%;
+}
+div.content>div div.testtimon
+{
+  margin-bottom:40px; 
+}
+div.content>div div.recent-post
+{
+  width:100%;   
+}
+div.content>div div.recent-post>h2
+{
+  text-align:center; 
+}
+div.content>div div.recent-post>div img,div.content>div div.recent-post>div p
+{
+  display:inline-block;
+}
+div.content>div div.recent-post>div p
+{
+  width:483px;
+}
+div.content>div div.recent-post>div a
+{
+  display: block;
+  text-align:right;
+  text-decoration: none;
+  color: black;
+}
+div.content>div div.recent-post img
+{
+  margin-right:40px; 
+}
+div.content>div div.venue
+{
+  width:100%;
+}
+div.content>div div.venue>ul
+{
+  list-style: none;
+}
+div.content>div div.venue>ul>li
+{
+  display:inline-block;  
+}
+div.content>div div.venue>h2
+{
+  text-align:center;  
+}
+div.content>div div.about
+{
+  width:100%;   
+}
+div.content>div div.about>h2
+{
+  text-align:center;   
+}
+div.content>div div.about>div>div,div.content>div div.about>div>p
+{
+  display:inline-block; 
+}
+div.content>div div.about>div>p
+{
+  width:390px;
+  height:215px;
+  background-image: url(../image/picture_for_home/vongt.jpg), url(../image/picture_for_home/vongd.jpg);
+  background-position: top left,bottom left;
+  background-repeat: no-repeat;
+  padding-top:50px;
+  padding-left:30px;
+  padding-right:30px;
+  text-align:justify;
+ vertical-align:top;
+  margin-top: 60px;
+  margin-left:60px;
+}

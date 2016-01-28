@@ -1,0 +1,186 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 14, 2016, 8:53:24 AM
+    Author     : PhamNgocHieu
+*/
+
+*
+{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+div.top_page
+{
+  height:143px;
+  background-image: url(../image/picture_for_about/background_header.jpg);
+  background-repeat: repeat-x;
+}
+div.top_page>div
+{
+  margin:auto;
+  height:143px;
+  width:1216px;
+  background-color: #ffffff;
+  position:relative;
+}
+div.top_page>div>img
+{
+   display:inline-block;
+   margin-top:10px;
+  margin-left: 10px;
+}
+div.top_page>div>ul
+{
+  list-style: none;
+  display:inline-block;
+  width:800px;
+  margin-bottom: 10px;
+}
+div.top_page>div>ul>li>a
+{
+  display:inline-block;
+  float: left;
+  height: 45px;
+  padding: 7px;
+  text-transform: uppercase;
+  font-family: HelveticaNeueLTStd;
+	font-size: 20px;
+	color: #000;
+  text-decoration:none;
+  margin-left: 15px;
+  margin-right:15px;    
+}
+div.top_page>div>ul>li>a:hover
+{
+  background-color: #275513; 
+  color: #ffffff;
+}
+div.top_page>div>div
+{
+  width:100%;
+  height:12px;
+  background-image:url(../image/picture_for_about/foot_of_footer.jpg);
+  position: absolute;
+  bottom:0px;
+}
+div.banner_image
+{
+   height:378px;
+   background-image: url(../image/picture_for_about/background_banner.png);
+   background-repeat:no-repeat;
+   background-size: cover;
+   position:relative;
+   margin-bottom:16px;
+   box-shadow: 1px 5px 5px #888888;
+}
+div.banner_image>p
+{
+   font-family: "Myriad Pro";
+	 font-size: 20px;
+	 text-transform: uppercase;
+	 color: #000; 
+   text-align:center;
+   display:block;
+   position:absolute;
+   top:50%;
+   width:100%;   
+}
+div.content
+{
+  background:#ecebeb url(../image/picture_for_about/background_footer_content.jpg) repeat-x left bottom;
+}
+div.content>div
+{
+  width:1216px;
+  background-color:#ffffff;
+  margin:auto;
+  z-index:1000;
+}
+div.content>div>img
+{
+  display:inline-block; 
+}
+div.content>div>div
+{
+  display:inline-block;
+  width:722px;
+}
+div.content>div>div>#artice
+{
+  font-family: "Helvetica Neue LT Std";
+	font-size: 30px;
+  text-align: center;
+	color: #313131;
+  display:inline-block;
+  width:394px;
+  height:160px;
+  background-image: url(../image/picture_for_about/alice_footer.jpg);
+  padding-top:50px;
+}
+div.content>div
+{
+  padding-left:75px; 
+}
+div.content>div>img
+{
+  vertical-align:top;
+  margin-top:50px;
+  margin-right:54px;
+}
+div.content>div>div>p
+{
+  font-family: "Helvetica Neue LT Std";
+	font-size: 17px;
+	color: #000;
+  line-height:1.3;
+}
+div.content>div>div>h2
+{
+  font-family: "Helvetica Neue LT Std";
+	font-size: 24px;
+	font-style: italic;
+	text-transform: uppercase;
+	color: #000;
+  line-height:2;
+}
+div.content>div>div>p#artice
+{
+  margin-top:134px;
+  margin-bottom:140px;
+}
+div.footer
+{
+  width:100%;
+  height:190px;
+  background-color:#c1c0c0;
+  position:relative;
+  text-align:center;
+  font-family: "Helvetica Neue LT Std";
+	font-size: 14px;
+	color: #616161;
+  line-height:1.4;
+  padding-top:37px;
+}
+div.footer>div>img
+{
+  display:inline-block; 
+  vertical-align:baseline;
+  margin-bottom:30px;
+}
+div.footer>div>ul
+{
+  display:inline-block;
+  list-style: none;
+  margin-left:20px;
+}
+div.footer>div>ul>li
+{
+  text-align:left;
+}
+
+
